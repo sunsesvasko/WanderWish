@@ -1,0 +1,27 @@
+{
+  "name": "wanderwish",
+  "version": "1.0.0",
+  "description": "A website where you can create a profile and wishlist travel destinations you'd one day like to visit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunsesvasko/WanderWish.git"
+  },
+  "author": "Vasko Blazhev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunsesvasko/WanderWish/issues"
+  },
+  "homepage": "https://github.com/sunsesvasko/WanderWish#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "path": "^0.12.7",
+    "supervisor": "^0.12.0"
+  }
+}
