@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 function AppLayout() {
   return (
-    <div>
+    <div className="h-[100dvh] flex flex-col">
       <Header />
 
       <Outlet />
